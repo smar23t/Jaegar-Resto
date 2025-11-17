@@ -1,0 +1,58 @@
+* {
+  color: inherit;
+  font-family: inherit;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #252836;
+  color: #ffffff;
+  font-family: "Barlow";
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+
+button:focus-visible {
+  outline: none;
+}
+
+input {
+  display: flex;
+}
+
+input:focus-visible {
+  outline: none;
+}
+
+img {
+  display: inline-block;
+  vertical-align: middle;
+  object-fit: cover;
+}
+
+.container {
+  max-width: 1536px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.wrapper {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
